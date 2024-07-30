@@ -33,11 +33,11 @@ struct LocationCoordinates: Codable {
 }
 
 struct LocationAddress: Codable {
-    var street: String
-    var neighborhood: String
-    var postalCode: String
-    var number: String
-    var complement: String
+    var street: String?
+    var neighborhood: String?
+    var postalCode: String?
+    var number: String?
+    var complement: String?
 }
 
 struct LocationAditionalData: Codable {
