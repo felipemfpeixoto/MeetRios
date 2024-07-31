@@ -44,7 +44,7 @@ struct ContentView: View {
             // Polilinhas das rotas
             ForEach(routes, id: \.polyline) { route in
                 MapPolyline(route.polyline)
-                    .stroke(.blue, lineWidth: 6)
+                    .stroke(.blue, lineWidth: 3)
             }
         }
         .mapControls {
@@ -116,4 +116,17 @@ extension MKCoordinateRegion {
 
 #Preview {
     ContentView()
+}
+
+
+extension MKRoute {
+    func touched(coordinate:MKMapPoint)->Bool {
+        let tolerance = 10.0
+        let origin = MKMapPoint(x: coordinate.x-tolerance/2,
+                                y: coordinate.y-tolerance/2)
+        let size = MKMapSize(width: tolerance, height: tolerance)
+        
+        let rect = MKMapRect(origin: origin, size: size)
+        return polyline.intersects(rect)
+    }
 }
