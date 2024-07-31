@@ -85,6 +85,7 @@
 				0F3F04AB2C5965AE00FD2609 /* ContentView.swift */,
 				639769872C5AABE80038BD3E /* File.swift */,
 				0F3F04C12C5975AE00FD2609 /* MapView.swift */,
+				0F3F04C32C5AB39D00FD2609 /* UserLocationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +187,7 @@
 				0F3F04AC2C5965AE00FD2609 /* ContentView.swift in Sources */,
 				0F3F04C22C5975AE00FD2609 /* MapView.swift in Sources */,
 				0F3F04AA2C5965AE00FD2609 /* MeetRioApp.swift in Sources */,
+				0F3F04C42C5AB39D00FD2609 /* UserLocationView.swift in Sources */,
 				0F3F04C02C59695900FD2609 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +325,7 @@
 				DEVELOPMENT_TEAM = 973F3TA6FW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -352,6 +355,7 @@
 				DEVELOPMENT_TEAM = 973F3TA6FW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
