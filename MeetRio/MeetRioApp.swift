@@ -11,7 +11,7 @@ import SwiftUI
 struct MeetRioApp: App {
     var body: some Scene {
         WindowGroup {
-            MapView()
+            ContentView()
         }
     }
 }
