@@ -14,8 +14,6 @@
 		0F3F04BB2C5966E300FD2609 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F04BA2C5966E300FD2609 /* DAO.swift */; };
 		0F3F04BE2C59670C00FD2609 /* CodableExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 0F3F04BD2C59670C00FD2609 /* CodableExtensions */; };
 		0F3F04C02C59695900FD2609 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F04BF2C59695900FD2609 /* Models.swift */; };
-		0F3F04C22C5975AE00FD2609 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F04C12C5975AE00FD2609 /* MapView.swift */; };
-		639769882C5AABE80038BD3E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639769872C5AABE80038BD3E /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		0F3F04B02C5965B000FD2609 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F3F04BA2C5966E300FD2609 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
 		0F3F04BF2C59695900FD2609 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		0F3F04C12C5975AE00FD2609 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		639769872C5AABE80038BD3E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				0F3F04AB2C5965AE00FD2609 /* ContentView.swift */,
-				639769872C5AABE80038BD3E /* File.swift */,
-				0F3F04C12C5975AE00FD2609 /* MapView.swift */,
-				0F3F04C32C5AB39D00FD2609 /* UserLocationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,11 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F3F04BB2C5966E300FD2609 /* DAO.swift in Sources */,
-				639769882C5AABE80038BD3E /* File.swift in Sources */,
 				0F3F04AC2C5965AE00FD2609 /* ContentView.swift in Sources */,
-				0F3F04C22C5975AE00FD2609 /* MapView.swift in Sources */,
 				0F3F04AA2C5965AE00FD2609 /* MeetRioApp.swift in Sources */,
-				0F3F04C42C5AB39D00FD2609 /* UserLocationView.swift in Sources */,
 				0F3F04C02C59695900FD2609 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
